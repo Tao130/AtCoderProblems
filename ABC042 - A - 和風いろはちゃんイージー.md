@@ -1,4 +1,4 @@
-
+``` 
 fun main() {
     val list = readLine()!!.split(" ").map { it.toInt() }
     var fiveCount = 0
@@ -9,3 +9,4 @@ fun main() {
     }
     if (fiveCount == 2 && sevenCount == 1) println("YES") else println("NO")
 }
+```
