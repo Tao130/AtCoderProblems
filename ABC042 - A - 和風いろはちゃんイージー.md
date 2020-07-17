@@ -1,4 +1,4 @@
-``` 
+``` answer.kt
 fun main() {
     val list = readLine()!!.split(" ").map { it.toInt() }
     var fiveCount = 0
