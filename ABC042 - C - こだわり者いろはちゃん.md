@@ -5,9 +5,10 @@ fun main() {
     var canPurchase = false
     while (!canPurchase) {
         var count = 0
-        for (i in 0 until k) {
+         for (i in 0 until k) {
             if (n.toString().contains(dislikeList[i])) {
                 count++
+                break
             }
         }
         if (count == 0) {
