@@ -1,3 +1,4 @@
+```kotlin
 fun main() {
     readLine()!!
     val intList = readLine()!!.split(" ").map { it.toInt() }
@@ -16,3 +17,4 @@ fun main() {
     println(costList.min())
  
 }
+```
